@@ -4,12 +4,6 @@ ban = [0] * 8  # tạo danh sanh vỡi 8 số [0]
 for i in range(len(ban)):
     ban[i] = ["_"] * 8    
 
-# # tạo ra hàng cột
-# for i in bàn:
-#     # tạo ra hàng ngang
-#     for j in i:
-#         print(j , end = " ") # in ra với kết thúc là "space"
-#     print() # khi tạo xong 1 hàng ngang sẽ xuống dòng xin 1 hàng mới
 
 def banco(ban): # Hàm bàn cờ
     # tạo ra hàng cột
